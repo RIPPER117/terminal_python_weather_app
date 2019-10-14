@@ -1,7 +1,7 @@
 import requests
 
 i=0
-city = input("City Name")
+city = input("Name of the city")
 url = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid=0c42f7f6b53b244c78a418f4f181282a' .format(city)
 
 
